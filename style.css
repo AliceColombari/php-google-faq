@@ -1,0 +1,194 @@
+/* COMMON */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+/* HEADER TOP */
+.header-top {
+    padding: 20px;
+    display: flex;
+}
+
+.header-logo,
+.header-user {
+    width: 50%;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo .header-img {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.header-logo .header-text {
+    font-size: 23px;
+    color: gray;
+    font-weight: 300;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-user .header-menu {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.header-user .header-icon {
+    width: 40px;
+    height: 40px;
+}
+/* FINE HEADER TOP */
+
+/* HEADER BOTTOM */
+.header-bottom {
+    border-bottom: 1px solid lightgray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-bottom nav ul {
+    display: flex;
+}
+
+.header-bottom nav ul li {
+    padding: 10px 20px;
+}
+
+.header-bottom nav ul li a {
+    padding: 8px 0px;
+    color: grey;
+}
+
+/* richiamo ultimo figlio di li - domande frequenti */
+.header-bottom nav ul li:last-child a {
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+}
+/* FINE HEADER BOTTOM */
+/* FINE HEADER */
+
+/* MAIN */
+.main-content {
+    padding-top: 200px;
+}
+
+.main-content section {
+    padding-bottom: 40px;
+    color: rgba(0,0,0,0.8);
+}
+
+.main-content h2 {
+    padding-bottom: 20px;
+    color: #3c4043;
+    font-size: 24px;
+}
+
+.main-content div {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.main-content a {
+    color: #3367d6;
+}
+
+/* ol elenco ordinato - numeri */
+.main-content ol {
+    margin: 20px;
+}
+
+/* creo elenco puntato lettere della sezione 'Perché il mio account è associato a un paese?' */
+.list-letter {
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
+.list-letter li {
+    margin-bottom: 20px;
+}
+/* FINE MAIN */
+
+/* FOOTER */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0px;
+    border-top: 1px solid #eee;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+}
+
+.list,
+.language {
+    width: 50%;
+}
+
+.list {
+    font-size: 12px;
+    color: gray;
+}
+
+.list ul {
+    display: flex;
+}
+
+.list ul li a {
+    padding: 0px 2px;
+}
+
+.language {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-language {
+    color: #3367d6;
+    font-size: 20px;
+}
+
+.language select {
+    width: 150px;
+    margin-left: 10px;
+}
+/* FINE FOOTER */
